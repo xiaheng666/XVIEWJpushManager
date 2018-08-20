@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWJpushManager_Example' do
+  pod 'XVIEWJpushManager', :path => '../'
+
+  target 'XVIEWJpushManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
