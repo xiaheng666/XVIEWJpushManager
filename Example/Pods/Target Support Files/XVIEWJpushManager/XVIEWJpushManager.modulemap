@@ -1,0 +1,6 @@
+framework module XVIEWJpushManager {
+  umbrella header "XVIEWJpushManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_XVIEWJpushManager_Example {
+  umbrella header "Pods-XVIEWJpushManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

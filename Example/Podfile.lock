@@ -1,0 +1,16 @@
+PODS:
+  - XVIEWJpushManager (0.1.0)
+
+DEPENDENCIES:
+  - XVIEWJpushManager (from `../`)
+
+EXTERNAL SOURCES:
+  XVIEWJpushManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XVIEWJpushManager: d8468c3351a0a94bfbcb8965e94a2b9b73441936
+
+PODFILE CHECKSUM: 61fa78aaeefc4fd53ca58a172a23f0af1a4bf37c
+
+COCOAPODS: 1.5.3

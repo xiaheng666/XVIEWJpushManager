@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XVIEWJpushManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XVIEWJpushManager.'
+  s.summary          = '极光推送'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/maomao520benben/XVIEWJpushManager'
+  s.homepage         = 'https://github.com/xiaheng666/XVIEWJpushManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'maomao520benben' => 'key@xiaheng.net' }
-  s.source           = { :git => 'https://github.com/maomao520benben/XVIEWJpushManager.git', :tag => s.version.to_s }
+  s.author           = { 'xiaheng666' => 'key@xiaheng.net' }
+  s.source           = { :git => 'git@github.com:xiaheng666/XVIEWJpushManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XVIEWJpushManager/Classes/**/*'
+s.source_files = 'XVIEWJpushManager/Classes/XVIEWJpushManager/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XVIEWJpushManager' => ['XVIEWJpushManager/Assets/*.png']
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'JPush', '~> 3.0.6'   # 极光推送
+  s.dependency 'JCore', '1.2.1'    # 极光推送
+  s.dependency 'EBForeNotification', '~> 1.0.7'# 极光推送
 end
