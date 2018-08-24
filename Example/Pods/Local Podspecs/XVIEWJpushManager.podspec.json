@@ -19,6 +19,22 @@
     "ios": "8.0"
   },
   "source_files": "XVIEWJpushManager/Classes/XVIEWJpushManager/*.{h,m}",
+  "libraries": [
+    "z",
+    "resolv"
+  ],
+  "frameworks": [
+    "UserNotifications",
+    "Security",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "CoreFoundation",
+    "CFNetwork",
+    "UIKit",
+    "Foundation",
+    "CoreGraphics",
+    "AdSupport"
+  ],
   "dependencies": {
     "JPush": [
       "~> 3.0.6"
@@ -27,7 +43,7 @@
       "1.2.1"
     ],
     "EBForeNotification": [
-      "~> 1.0.7"
+      "=1.0.7"
     ]
   }
 }

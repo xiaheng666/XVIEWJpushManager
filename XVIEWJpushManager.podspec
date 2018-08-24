@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWJpushManager'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '极光推送'
 
 # This description is used to generate tags and improve search results.
@@ -37,9 +37,10 @@ s.source_files = 'XVIEWJpushManager/Classes/XVIEWJpushManager/*.{h,m}'
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+    s.libraries = 'z','resolv'
+   s.frameworks = 'UserNotifications', 'Security','SystemConfiguration','CoreTelephony','CoreFoundation','CFNetwork','UIKit','Foundation','CoreGraphics','AdSupport'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'JPush', '~> 3.0.6'   # 极光推送
   s.dependency 'JCore', '1.2.1'    # 极光推送
-  s.dependency 'EBForeNotification', '~> 1.0.7'# 极光推送
+  s.dependency 'EBForeNotification', '=1.0.7'# 极光推送
 end
